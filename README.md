@@ -21,6 +21,10 @@ for-loopar. Eleven ska gissa vad som kommer att skrivas ut av koden
 och därefter provköra den. I några uppgifter ska eleven ändra i koden 
 så att det som skrivs ut ändras.
 
+### 2️⃣ Öva på loopar och listor
+Uppgiften innehåller uppgifter där tal ska summeras i en loop. Både for- 
+och while-loop ska användas. I sista uppgiften övas manipulation av en
+lista med strängar i åtta delmoment.
 
 
 ## 📊 Status
@@ -30,8 +34,8 @@ Här nedan presenteras en översikt över statusen på lösande av uppgfterna.
 | Uppgift                     | Status |
 |:----------------------------|:------:|
 | 1. Diskutera i grupp        |   🟢   |
-| 2. Öva på loopar och listor |   🟡   |
-| 3. Kvittouträknaren         |   🔴   |
+| 2. Öva på loopar och listor |   🟢   |
+| 3. Kvittouträknaren         |   🟡   |
 | 4. Figurer med loopar       |   🔴   |
 | 5. Gissa talet              |   🔴   |
 | 6. Todo list (att göra-lista)             |   🔴   |
