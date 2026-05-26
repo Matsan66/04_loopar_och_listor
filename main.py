@@ -211,3 +211,100 @@ print("\n3:3h Sortera listan stigande i bokstavsordning")
 print("------------------------------------------------")
 list_of_movies.sort()
 print(list_of_movies)
+
+
+
+
+#3 Kvittouträknaren
+
+# -----------------------------------------------
+# Collect subtotals until user abort with "quit"
+# -----------------------------------------------
+print("\nVälkommen till Kvittokompis! Avsluta genom att skriva: quit")
+
+list_of_subtotals = []
+
+while True:
+    subtotal = input("Skriv in ett belopp: ")
+
+    if subtotal.lower() == "quit":
+        break
+
+    try:
+        list_of_subtotals.append (float(subtotal))
+    except ValueError:
+        print("\nFel input, det inmatade värdet är inget belopp.")
+        print("Försök igen.")
+
+
+# -----------------------------------------------
+# Sum subtotals entered by user
+# -----------------------------------------------
+total_sum = sum(list_of_subtotals)
+
+
+# -----------------------------------------------
+# Ask user for amount of persons to share the bill
+# -----------------------------------------------
+persons_to_split = 0
+
+while True:
+
+    try:
+        persons_to_split = int(input("Hur många är ni? "))
+
+        if persons_to_split < 1:
+            print("\nMinst en person måste betala.")
+            print("Försök igen.")
+            continue
+        break
+
+    except ValueError:
+        print("\nFel input, mata in antalet personer som ska dela notan.")
+        print("Försök igen.")
+        continue
+
+# -----------------------------------------------
+# Ask user for tip in percent. Blank input sets default 10 %.
+# -----------------------------------------------
+
+while True:
+    tip_in_percent = input("Ange dricks i % (blank = 10 %): ")
+
+    if tip_in_percent == "":
+        tip_in_percent = 10.0 # Default if no user selection
+        break
+
+    try:
+        tip_in_percent = float(tip_in_percent)
+        break
+
+    except ValueError:
+        print("\nFel input, mata in dricks i procent.")
+        print("Försök igen.")
+
+# -----------------------------------------------
+# Calculate total tip and total sum including tip
+# -----------------------------------------------
+total_tip = total_sum * (tip_in_percent /100)
+sum_to_pay = total_sum + total_tip
+
+# -----------------------------------------------
+# Calculate amount to pay for each person
+# -----------------------------------------------
+amount_per_person = sum_to_pay / persons_to_split
+
+# -----------------------------------------------
+# Print results
+# -----------------------------------------------
+print("--------------------------------------------")
+print("-- KVITTO")
+print("--------------------------------------------")
+
+print(f"-- Summa att betala: \t {round(total_sum, 2)} kr")
+print(f"-- Dricks {tip_in_percent} %  \t\t {round(total_tip, 2)} kr")
+print(f"-- Per person  : \t\t {round(amount_per_person, 2)} kr")
+print("--------------------------------------------")
+print(f"-- Totalt att betala : \t {round(sum_to_pay, 2)} kr")
+print("--------------------------------------------")
+print("Välkommen åter!")

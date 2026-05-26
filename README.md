@@ -1,4 +1,4 @@
-# 🟢04_loopar_och_listor
+# 🟦 04_loopar_och_listor
 
 ## Beskrivning
 Projektet "04_loopar_och_listor" innehåller lösningen av veckouppgift 3 under 
@@ -26,6 +26,21 @@ Uppgiften innehåller uppgifter där tal ska summeras i en loop. Både for-
 och while-loop ska användas. I sista uppgiften övas manipulation av en
 lista med strängar i åtta delmoment.
 
+### 3️⃣  Kvittouträknaren
+Uppgiften innebär att man ska skriva ett program där användaren kan mata
+in prisbelopp. När användaren väljer att avsluta ska programmet summera 
+prisbelopp och presentera summan att betala. 
+
+I en vidareutveckling av programmet ska användaren kunna ange hur många 
+gäster som ska dela på notan. Programmet ska då presentera vad varje gäst ska betala. 
+
+I den slutliga versionen ska användaren frågas hur många procent dricks man vill lägga 
+på summan. Om ingen dricks anges ska programmet automatiskt lägga på 10 %.
+
+Det är ett plus om programmet innehåller felhantering för att förhindra krasher.
+Framförallt är det "ValueError" som ska hanteras vid inmatning av prisbelopp och 
+avslutning av programmet.
+
 
 ## 📊 Status
 
@@ -35,8 +50,8 @@ Här nedan presenteras en översikt över statusen på lösande av uppgfterna.
 |:----------------------------|:------:|
 | 1. Diskutera i grupp        |   🟢   |
 | 2. Öva på loopar och listor |   🟢   |
-| 3. Kvittouträknaren         |   🟡   |
-| 4. Figurer med loopar       |   🔴   |
+| 3. Kvittouträknaren         |   🟢   |
+| 4. Figurer med loopar       |   🟡   |
 | 5. Gissa talet              |   🔴   |
 | 6. Todo list (att göra-lista)             |   🔴   |
 
