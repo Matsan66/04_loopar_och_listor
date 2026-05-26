@@ -41,6 +41,15 @@ Det är ett plus om programmet innehåller felhantering för att förhindra kras
 Framförallt är det "ValueError" som ska hanteras vid inmatning av prisbelopp och 
 avslutning av programmet.
 
+### 4️⃣ Figurer med loopar
+En uppgift där man med hjälp av nästade loopar ska rita upp ett mönster med ett antal 
+ascii-tecken. Uppgiften krävde att man använder logiska if-satser för att avgöra tecknens
+placering i mönstret. Totalt omfattade uppgiften 10 olika mönster att rita.
+
+Exempel:
+
+![Screenshot](images/pattern_example.png)
+
 
 ## 📊 Status
 
@@ -51,8 +60,8 @@ Här nedan presenteras en översikt över statusen på lösande av uppgfterna.
 | 1. Diskutera i grupp        |   🟢   |
 | 2. Öva på loopar och listor |   🟢   |
 | 3. Kvittouträknaren         |   🟢   |
-| 4. Figurer med loopar       |   🟡   |
-| 5. Gissa talet              |   🔴   |
+| 4. Figurer med loopar       |   🟢   |
+| 5. Gissa talet              |   🟡   |
 | 6. Todo list (att göra-lista)             |   🔴   |
 
 > ⚠️ Projektet är under utveckling

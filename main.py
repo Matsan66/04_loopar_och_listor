@@ -308,3 +308,174 @@ print("--------------------------------------------")
 print(f"-- Totalt att betala : \t {round(sum_to_pay, 2)} kr")
 print("--------------------------------------------")
 print("Välkommen åter!")
+
+
+
+# 4 Figurer med loopar
+
+#a
+#--------------------------------
+print("\nUppgift a")
+for y in range(1, 7):
+    s = ""
+    for x in range(1, 9):
+        if x == 1:
+            s += "#"
+        else:
+            s += "."
+    print(s)
+
+#b
+#--------------------------------
+print("\nUppgift b")
+for y in range(1, 7):
+    s = ""
+    for x in range(1, 9):
+        if x == y:
+            s += "#"
+        else:
+            s += "."
+    print(s)
+
+#c
+#--------------------------------
+print("\nUppgift c")
+for y in range(1, 7):
+    s = ""
+    for x in range(1, 9):
+        if x in (3, 4, 5):
+            s += "#"
+        else:
+            s += "."
+    print(s)
+
+#d
+#--------------------------------
+print("\nUppgift d")
+for y in range(1, 7):
+    s = ""
+    for x in range(1, 9):
+        if (x == 3) or (y == 3):
+            s += "#"
+        else:
+            s += "."
+    print(s)
+
+#e
+#--------------------------------
+print("\nUppgift e")
+for y in range(1, 7):
+    s = ""
+    for x in range(1, 9):
+        if (
+            (y == 1 and x in (5, 6)) or
+            (y == 2 and x == 5) or
+            (y == 3 and x in (4, 5)) or
+            (y == 4 and x in (3, 5)) or
+            (y == 5 and x in (2, 5)) or
+            (y == 6 and x in (1, 5))
+            ):
+            s += "#"
+        else:
+            s += "."
+
+    print(s)
+
+#f
+#--------------------------------
+print("\nUppgift f")
+for y in range(1, 7):
+    s = ""
+    for x in range(1, 9):
+        if (
+                (y == 1 and x in (1, 6)) or
+                (y == 2 and x in (2, 5)) or
+                (y == 3 and x in (3, 4)) or
+                (y == 4 and x in (3, 4)) or
+                (y == 5 and x in (2, 5)) or
+                (y == 6 and x in (1, 6))
+        ):
+            s += "#"
+        else:
+            s += "."
+
+    print(s)
+
+#g
+#--------------------------------
+print("\nUppgift g")
+for y in range(1, 7):
+    s = ""
+    for x in range(1, 9):
+        if x % 2 == 0:
+            s += "."
+        else:
+            s += "#"
+
+    print(s)
+
+#h
+#--------------------------------
+print("\nUppgift h")
+for y in range(1, 7):
+    s = ""
+    for x in range(1, 9):
+        if (
+                (y == 2 and x in (2, 3, 4, 5, 6, 7)) or
+                (y == 5 and x in (2, 3, 4, 5, 6, 7)) or
+                (y == 3 and x in (2, 7)) or
+                (y == 4 and x in (2, 7))
+        ):
+            s += "#"
+        else:
+            s += "."
+
+    print(s)
+
+#i
+#--------------------------------
+print("\nUppgift i")
+for y in range(1, 7):
+    s = ""
+    for x in range(1, 9):
+        if (
+                (y == 1 and x in (2, 5, 8)) or
+                (y == 2 and x in (3, 6)) or
+                (y == 3 and x in (1, 4, 7)) or
+                (y == 4 and x in (2, 5, 8)) or
+                (y == 5 and x in (3, 6)) or
+                (y == 6 and x in (1, 4, 7))
+        ):
+            s += "#"
+        elif (
+                (y == 1 and x in (3, 6)) or
+                (y == 2 and x in (1, 4,7)) or
+                (y == 3 and x in (2, 5, 8)) or
+                (y == 4 and x in (3, 6)) or
+                (y == 5 and x in (1, 4, 7)) or
+                (y == 6 and x in (2, 5, 8))
+        ):
+            s += "O"
+        else:
+            s += "."
+
+    print(s)
+
+#j
+#--------------------------------
+print("\nUppgift j")
+for y in range(1, 7):
+    s = ""
+    for x in range(1, 9):
+        if (
+                (y == 1 and x in (3, 6)) or
+                (y == 2 and x in (3, 6)) or
+                (y == 3 and x in (3, 6)) or
+                (y == 5 and x in (2, 4, 6, 8)) or
+                (y == 6 and x in (1, 3, 5, 7))
+        ):
+            s += "#"
+        else:
+            s += "."
+
+    print(s)
