@@ -4,7 +4,6 @@ def guess_number():
     print("\nJag tänker på ett tal mellan 1 och 100. Kan du gissa vilket det är?")
 
     random_number = random.randint(1, 100)
-    print(random_number)
     guessed_number = None
     number_of_guesses = 0
 
