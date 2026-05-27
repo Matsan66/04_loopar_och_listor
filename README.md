@@ -17,19 +17,18 @@ i en fil (***main.py***) på GitHub.
 
 ### 1️⃣ Diskutera i grupp
 Uppgiften innehåller 6 olika uppgifter som innehåller while- eller 
-for-loopar. Eleven ska gissa vad som kommer att skrivas ut av koden 
-och därefter provköra den. I några uppgifter ska eleven ändra i koden 
+for-loopar. Man ska gissa vad som kommer att skrivas ut av koden 
+och därefter provköra den. I några uppgifter ska man ändra i koden 
 så att det som skrivs ut ändras.
 
 ### 2️⃣ Öva på loopar och listor
 Uppgiften innehåller uppgifter där tal ska summeras i en loop. Både for- 
-och while-loop ska användas. I sista uppgiften övas manipulation av en
+och while-loopar ska användas. I sista uppgiften övas manipulation av en
 lista med strängar i åtta delmoment.
 
 ### 3️⃣  Kvittouträknaren
-Uppgiften innebär att man ska skriva ett program där användaren kan mata
-in prisbelopp. När användaren väljer att avsluta ska programmet summera 
-prisbelopp och presentera summan att betala. 
+Ett program där användaren kan mata in valfritt antal prisbelopp. När användaren 
+väljer att avsluta ska programmet summera prisbelopp och presentera summan att betala. 
 
 I en vidareutveckling av programmet ska användaren kunna ange hur många 
 gäster som ska dela på notan. Programmet ska då presentera vad varje gäst ska betala. 
@@ -50,18 +49,26 @@ Exempel:
 
 ![Screenshot](images/pattern_example.png)
 
+### 5️⃣ Gissa talet
+Ett program där användaren ska gissa ett slumpvis genererat heltal mellan 1 och 100.
+Programmet anger om det gissade talet var för högt eller för lågt. Om det gissade talet
+endast är 5 över eller under anges "Nu börjar det brännas". Då användaren gissat rätt 
+presenteras hur många gissningar som behövdes för att klara splet. Slutligen får 
+användaren välja att spela igen eller att avsluta programmet.  
+Programmet är uppladdat i en egen fil "guess_game.py".
+
 
 ## 📊 Status
 
 Här nedan presenteras en översikt över statusen på lösande av uppgfterna.
 
-| Uppgift                     | Status |
-|:----------------------------|:------:|
-| 1. Diskutera i grupp        |   🟢   |
-| 2. Öva på loopar och listor |   🟢   |
-| 3. Kvittouträknaren         |   🟢   |
-| 4. Figurer med loopar       |   🟢   |
-| 5. Gissa talet              |   🟡   |
-| 6. Todo list (att göra-lista)             |   🔴   |
+| Uppgift                       | Status |
+|:------------------------------|:------:|
+| 1. Diskutera i grupp          |   🟢   |
+| 2. Öva på loopar och listor   |   🟢   |
+| 3. Kvittouträknaren           |   🟢   |
+| 4. Figurer med loopar         |   🟢   |
+| 5. Gissa talet                |   🟢   |
+| 6. Todo list (att göra-lista) |   🔴   |
 
 > ⚠️ Projektet är under utveckling
