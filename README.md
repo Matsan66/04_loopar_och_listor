@@ -1,7 +1,7 @@
 # 🟦 04_loopar_och_listor
 
 ## Beskrivning
-Projektet "04_loopar_och_listor" innehåller lösningen av veckouppgift 3 under 
+Projektet "03_loopar_och_listor" innehåller lösningen av veckouppgift 3 under 
 YH-kursen Testautomation med Python vid NBI Handelsakademin.  
 Uppgiften omfattar 6 programmeringsuppgifter som redovisas 
 i en fil (***main.py***) på GitHub. 
