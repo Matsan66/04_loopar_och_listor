@@ -57,6 +57,12 @@ presenteras hur många gissningar som behövdes för att klara splet. Slutligen 
 användaren välja att spela igen eller att avsluta programmet.  
 Programmet är uppladdat i en egen fil "guess_game.py".
 
+### 6️⃣ Todo-list
+Ett program där användaren kan hantera en att-göra lista. Programmet medger att visa 
+listan, lägga till uppgifter, ta bort uppgift, visa borttagna uppgifter och återställa 
+tidigare borttagna uppgifter.  
+Programmet är uppladdat i en egen fil "todo_list.py".
+
 
 ## 📊 Status
 
@@ -69,6 +75,6 @@ Här nedan presenteras en översikt över statusen på lösande av uppgfterna.
 | 3. Kvittouträknaren           |   🟢   |
 | 4. Figurer med loopar         |   🟢   |
 | 5. Gissa talet                |   🟢   |
-| 6. Todo list (att göra-lista) |   🔴   |
+| 6. Todo list (att göra-lista) |   🟢   |
 
-> ⚠️ Projektet är under utveckling
+> ⚠️ Projektet är under granskning
