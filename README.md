@@ -77,4 +77,4 @@ Här nedan presenteras en översikt över statusen på lösande av uppgfterna.
 | 5. Gissa talet                |   🟢   |
 | 6. Todo list (att göra-lista) |   🟢   |
 
-> ⚠️ Projektet är under granskning
+> ⚠️ Projektet är granskat och inlämnat
